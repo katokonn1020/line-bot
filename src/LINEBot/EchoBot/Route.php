@@ -68,7 +68,7 @@ class Route
 
                 $userId = $event->getUserId();
 
-                $bot->pushMessage($userId, new LINEBot\MessageBuilder\TextMessageBuilder('push'));
+                $bot->pushMessage($userId, new LINEBot\MessageBuilder\TextMessageBuilder('this'));
 
 //                $replyText = $event->getText();
 //                $logger->info('Reply text: ' . $replyText);
